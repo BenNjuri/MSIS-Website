@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Core Values — Mustard Seed International Schools</title>
+    <link rel="icon" href="logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <style>
+        .article-hero {
+            background: var(--dark) url('Kenya House.jpg') center/cover no-repeat;
+            padding: 140px 0 100px;
+            position: relative;
+            color: white;
+            text-align: center;
+        }
+
+        .article-hero::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+
+        .article-header {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .article-content {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 28px;
+            line-height: 1.8;
+            font-size: 1.15rem;
+            color: var(--mid);
+        }
+
+        .article-content h2 {
+            color: var(--text);
+            margin: 50px 0 20px;
+            font-size: 2.2rem;
+            letter-spacing: -0.02em;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            margin: 60px 0;
+        }
+
+        .value-card {
+            display: flex;
+            background: #fff;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            align-items: center;
+        }
+
+        .value-card:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .vc-img {
+            flex: 0 0 45%;
+            height: 350px;
+        }
+
+        .vc-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .vc-content {
+            flex: 1;
+            padding: 40px;
+        }
+
+        .vc-content h3 {
+            font-size: 1.8rem;
+            color: var(--dark);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .vc-content h3 span {
+            display: inline-flex;
+            width: 40px;
+            height: 40px;
+            background: var(--green);
+            color: white;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: var(--green);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        @media(max-width: 768px) {
+
+            .value-card,
+            .value-card:nth-child(even) {
+                flex-direction: column;
+            }
+
+            .vc-img {
+                height: 250px;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HEADER QUICK COPY -->
+    <header class="site-header scrolled">
+        <div class="header-container">
+            <a href="index.html" class="header-logo-link">
+                <img src="logo.png" alt="Mustard Seed" class="header-logo" />
+            </a>
+            <div class="header-actions">
+                <a href="index.html" class="hdr-btn hdr-outline">Back to Home</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="article-hero">
+        <div class="container article-header">
+            <div class="eyebrow-label" style="background:var(--green);color:white;border:none">What Drives Us</div>
+            <h1 class="hero-headline" style="font-size:3.5rem;margin-top:20px;margin-bottom:20px">Our Core Values</h1>
+            <p style="font-family:var(--serif);font-size:1.4rem;opacity:0.9">Integrity, Service, Teamwork, Excellence,
+                and Professionalism.</p>
+        </div>
+    </section>
+
+    <main class="article-content">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        <p style="font-size: 1.3rem; margin-bottom: 40px; text-align: center;">
+            Our core values are the bedrock of our community. They guide our interactions, shape our decisions, and form
+            the character of our students. We strive to embody these five pillars in everything we do at Mustard Seed.
+        </p>
+
+        <div class="values-grid">
+            <div class="value-card">
+                <div class="vc-img">
+                    <img src="Teacher Student Relationship.jpg"
+                        alt="Teacher and student relationship representing integrity" loading="lazy" />
+                </div>
+                <div class="vc-content">
+                    <h3><span>1</span> Integrity &amp; Professionalism</h3>
+                    <p>We believe in doing the right thing, even when no one is watching. Honesty, respect, and ethical
+                        behavior are expected from our staff, students, and parents alike. Our teachers maintain the
+                        highest standards of professionalism, acting as deeply committed mentors who guide students with
+                        transparency and fairness.</p>
+                </div>
+            </div>
+
+            <div class="value-card">
+                <div class="vc-img">
+                    <img src="Awards Sports 1.jpg" alt="Student receiving sports award for excellence" loading="lazy" />
+                </div>
+                <div class="vc-content">
+                    <h3><span>2</span> Excellence</h3>
+                    <p>Excellence is not an act, but a habit. We set high expectations and provide the support necessary
+                        for every student to surpass them. Whether in the classroom, the laboratory, or on the playing
+                        field—where effort yields awards and continuous personal bests—we celebrate the pursuit of
+                        becoming the finest versions of ourselves.</p>
+                </div>
+            </div>
+
+            <div class="value-card">
+                <div class="vc-img">
+                    <img src="Tanzania.jpg" alt="Tanzania sports house showing teamwork" loading="lazy" />
+                </div>
+                <div class="vc-content">
+                    <h3><span>3</span> Teamwork</h3>
+                    <p>We achieve more together than we ever could alone. Through group projects, community events, and
+                        the fierce but friendly competition among our sports houses (Kenya, Uganda, and Tanzania), our
+                        students learn the critical importance of collaboration, active listening, and collective
+                        problem-solving.</p>
+                </div>
+            </div>
+
+            <div class="value-card">
+                <div class="vc-img">
+                    <img src="Uganda House.jpg" alt="Uganda house displaying service and school spirit"
+                        loading="lazy" />
+                </div>
+                <div class="vc-content">
+                    <h3><span>4</span> Service</h3>
+                    <p>Leadership is rooted in service to others. We cultivate a culture where students take the
+                        initiative to support their peers, protect the environment, and uplift the broader local
+                        community. By learning to serve with humility and joy, our students prepare to be compassionate
+                        leaders in an interconnected world.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER QUICK COPY -->
+    <footer class="site-footer" style="margin-top:60px; background: var(--dark); padding: 40px 0;">
+        <div class="footer-bottom">
+            <div class="footer-container" style="text-align:center; color: white;">
+                <p>© 2026 Mustard Seed International Schools. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

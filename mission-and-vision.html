@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Our Mission and Vision — Mustard Seed International Schools</title>
+    <link rel="icon" href="logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <style>
+        .article-hero {
+            background: var(--dark) url('Debate 1.jpg') center/cover no-repeat;
+            padding: 140px 0 100px;
+            position: relative;
+            color: white;
+            text-align: center;
+        }
+
+        .article-hero::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+
+        .article-header {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .article-content {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 28px;
+            line-height: 1.8;
+            font-size: 1.15rem;
+            color: var(--mid);
+        }
+
+        .article-content h2 {
+            color: var(--text);
+            margin: 50px 0 20px;
+            font-size: 2.2rem;
+            letter-spacing: -0.02em;
+        }
+
+        .value-block {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin: 60px 0;
+            flex-wrap: wrap;
+        }
+
+        .value-block.reverse {
+            flex-direction: row-reverse;
+        }
+
+        .value-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .value-img {
+            flex: 1;
+            min-width: 300px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .value-img img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.4s ease;
+        }
+
+        .value-img:hover img {
+            transform: scale(1.05);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: var(--green);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HEADER QUICK COPY -->
+    <header class="site-header scrolled">
+        <div class="header-container">
+            <a href="index.html" class="header-logo-link">
+                <img src="logo.png" alt="Mustard Seed" class="header-logo" />
+            </a>
+            <div class="header-actions">
+                <a href="index.html" class="hdr-btn hdr-outline">Back to Home</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="article-hero">
+        <div class="container article-header">
+            <div class="eyebrow-label" style="background:var(--yellow);color:var(--dark);border:none">Our Purpose</div>
+            <h1 class="hero-headline" style="font-size:3.5rem;margin-top:20px;margin-bottom:20px">Our Mission &amp;
+                Vision</h1>
+            <p style="font-family:var(--serif);font-size:1.4rem;opacity:0.9">To Enlighten, Inspire, and Empower.</p>
+        </div>
+    </section>
+
+    <main class="article-content">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        <p style="font-size: 1.3rem; margin-bottom: 40px; text-align: justify;">
+            At Mustard Seed International Schools, our educational philosophy is rooted in a profound commitment to
+            developing the whole child. We believe that an outstanding education goes far beyond academic achievement;
+            it is about cultivating character, nurturing creativity, and instilling a lifelong passion for learning.
+        </p>
+
+        <div class="value-block">
+            <div class="value-text">
+                <h2>Enlighten</h2>
+                <p>We see education as a gateway to understanding the world. By bringing clarity through knowledge, we
+                    enlighten our students' minds contextually, socially, and academically. It is our goal to foster
+                    critically engaged thinkers who aren't afraid to question the status quo, debate complex ideas, and
+                    push the boundaries of their own comprehension.</p>
+            </div>
+            <div class="value-img">
+                <img src="Debate 1.jpg" alt="Students engaging in debate and leadership" loading="lazy" />
+            </div>
+        </div>
+
+        <div class="value-block reverse">
+            <div class="value-text">
+                <h2>Inspire</h2>
+                <p>Inspiration is the spark that turns potential into greatness. At Mustard Seed, our rich curriculum in
+                    the arts, sciences, and humanities ensures that every student finds their unique calling. Whether
+                    through a beautiful canvas in the Junior Art studio or a captivating melody, we strive to bring joy
+                    into learning and motivate students to exceed their own expectations.</p>
+            </div>
+            <div class="value-img">
+                <img src="Junior Art.jpg" alt="Student expressing creativity in art" loading="lazy" />
+            </div>
+        </div>
+
+        <div class="value-block">
+            <div class="value-text">
+                <h2>Empower</h2>
+                <p>True education empowers individuals to make a difference. We prepare our students not just for
+                    university, but for the profound responsibility of citizenship. By engaging in community
+                    service—such as our termly visits to the Quality Kids Children's Orphanage—students build empathy,
+                    leadership skills, and the confidence to actively shape a better future for their communities.</p>
+            </div>
+            <div class="value-img">
+                <img src="Quality Kids Children's Orphanage Termly Community Service.jpg"
+                    alt="Community service at Quality Kids Orphanage" loading="lazy" />
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER QUICK COPY -->
+    <footer class="site-footer" style="margin-top:60px; background: var(--dark); padding: 40px 0;">
+        <div class="footer-bottom">
+            <div class="footer-container" style="text-align:center; color: white;">
+                <p>© 2026 Mustard Seed International Schools. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

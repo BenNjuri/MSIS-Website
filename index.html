@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Mustard Seed International Schools — Enlighten · Inspire · Empower</title>
+  <meta name="description"
+    content="Mustard Seed International Schools, Nakuru — Cambridge curriculum, Early Years through Senior School." />
+  <link rel="icon" href="logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body class="page-loading">
+
+  <!-- ══════════════════════════════════════
+     PAGE LOADER
+════════════════════════════════════════ -->
+  <div id="page-loader" class="page-loader">
+    <div class="loader-inner">
+      <img src="logo.png" alt="Mustard Seed" class="loader-logo" />
+      <div class="loader-bar"><span id="loader-fill"></span></div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+     ANNOUNCEMENT RIBBON
+════════════════════════════════════════ -->
+  <div class="ribbon" id="ribbon">
+    <div class="ribbon-track">
+      <span>📞 +254721300121</span>
+      <span class="ribbon-dot"></span>
+      <span>✉ info@mustardseedschools.co.ke</span>
+      <span class="ribbon-dot"></span>
+      <span>📍 Kiamunyi, Off Nakuru-Eldoret Road, Nakuru</span>
+      <span class="ribbon-dot"></span>
+      <span>🗓️ Term 2 — Now Enrolling for 2026/2027</span>
+      <span class="ribbon-dot"></span>
+      <span>📞 +254721300121</span>
+      <span class="ribbon-dot"></span>
+      <span>✉ info@mustardseedschools.co.ke</span>
+      <span class="ribbon-dot"></span>
+      <span>📍 Kiamunyi, Off Nakuru-Eldoret Road, Nakuru</span>
+      <span class="ribbon-dot"></span>
+      <span>🗓️ Term 2 — Now Enrolling for 2026/2027</span>
+    </div>
+    <button class="ribbon-close" id="ribbon-close" aria-label="Close announcement">✕</button>
+  </div>
+
+  <!-- ══════════════════════════════════════
+     MAIN HEADER
+════════════════════════════════════════ -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <a href="#home" class="header-logo-link" id="logo-link">
+        <img src="logo.png" alt="Mustard Seed International Schools" class="header-logo" />
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Primary navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-item active" data-section="home">Home</a></li>
+          <li class="nav-has-sub">
+            <a href="#about" class="nav-item" data-section="about">About Us <svg class="chevron" viewBox="0 0 10 6">
+                <path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+              </svg></a>
+            <div class="nav-sub">
+              <a href="mission-and-vision.html">Our Mission &amp; Vision</a>
+              <a href="core-values.html">Core Values</a>
+              <a href="school-overview.html">School Overview</a>
+            </div>
+          </li>
+          <li class="nav-has-sub">
+            <a href="#schools" class="nav-item" data-section="schools">Our Schools <svg class="chevron"
+                viewBox="0 0 10 6">
+                <path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+              </svg></a>
+            <div class="nav-sub">
+              <a href="#schools" onclick="document.getElementById('tab-early').click()">Early Years</a>
+              <a href="#schools" onclick="document.getElementById('tab-junior').click()">Junior School</a>
+              <a href="#schools" onclick="document.getElementById('tab-senior').click()">Senior School</a>
+              <a href="#schools" onclick="document.getElementById('tab-boarding').click()">Flexible Boarding</a>
+            </div>
+          </li>
+          <li class="nav-has-sub">
+            <a href="#admissions" class="nav-item" data-section="admissions">Admissions <svg class="chevron"
+                viewBox="0 0 10 6">
+                <path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+              </svg></a>
+            <div class="nav-sub">
+              <a href="#admissions">How to Apply</a>
+              <a href="#admissions">FAQ</a>
+            </div>
+          </li>
+          <li><a href="#news" class="nav-item" data-section="news">News</a></li>
+          <li><a href="#gallery" class="nav-item" data-section="gallery">Gallery</a></li>
+          <li><a href="#contact" class="nav-item" data-section="contact">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#admissions" class="hdr-btn hdr-filled" id="hdr-register">Apply Now</a>
+        <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════
+     HERO — CINEMATIC SLIDER
+════════════════════════════════════════ -->
+  <section class="hero" id="home">
+    <!-- Slide backgrounds -->
+    <div class="hero-slides" id="hero-slides">
+      <div class="hero-slide active" style="background-image:url('tbd.jpg')" data-idx="0"></div>
+      <div class="hero-slide" style="background-image:url('SL1.jpg')" data-idx="1"></div>
+      <div class="hero-slide" style="background-image:url('Trip5.jpg')" data-idx="2"></div>
+    </div>
+
+    <!-- Gradient veil -->
+    <div class="hero-veil"></div>
+
+    <!-- Animated mesh overlay -->
+    <div class="hero-mesh"></div>
+
+    <!-- Content panels (one per slide) -->
+    <div class="hero-panels" id="hero-panels">
+      <div class="hero-panel active" data-idx="0">
+        <div class="hero-inner">
+          <div class="hero-eyebrow">Welcome to Mustard Seed International Schools</div>
+          <h1 class="hero-headline">
+            <span class="line-reveal">We Enlighten,</span>
+            <span class="line-reveal">Inspire &amp;</span>
+            <span class="line-reveal accent">Empower</span>
+          </h1>
+          <p class="hero-sub">Preparing tomorrow's leaders through Cambridge education, rooted in Nakuru — reaching
+            across the world.</p>
+          <div class="hero-btns">
+            <a href="#schools" class="btn-hero-primary" id="hero-cta-1">Explore Our Schools</a>
+            <a href="#about" class="btn-hero-ghost" id="hero-cta-about">Our Story</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-panel" data-idx="1">
+        <div class="hero-inner">
+          <div class="hero-eyebrow">A Vibrant School Community</div>
+          <h1 class="hero-headline">
+            <span class="line-reveal">600+ Students.</span>
+            <span class="line-reveal">15 Nationalities.</span>
+            <span class="line-reveal accent">One Family.</span>
+          </h1>
+          <p class="hero-sub">A multicultural community where every child is known, valued, and challenged to grow.</p>
+          <div class="hero-btns">
+            <a href="#about" class="btn-hero-primary" id="hero-cta-2">Meet Our Community</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-panel" data-idx="2">
+        <div class="hero-inner">
+          <div class="hero-eyebrow">Cambridge International Education</div>
+          <h1 class="hero-headline">
+            <span class="line-reveal">Global Education.</span>
+            <span class="line-reveal">Local Heart.</span>
+            <span class="line-reveal accent">Boundless Future.</span>
+          </h1>
+          <p class="hero-sub">97% of our graduates progress to university. Your child's story starts here.</p>
+          <div class="hero-btns">
+            <a href="#admissions" class="btn-hero-primary" id="hero-cta-3">Apply Now</a>
+            <a href="#video-section" class="btn-hero-ghost" id="hero-cta-video">Watch Our Film</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slider controls -->
+    <button class="hero-arrow left" id="hero-prev" aria-label="Previous slide">
+      <svg viewBox="0 0 24 24">
+        <path d="M15 19l-7-7 7-7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+    </button>
+    <button class="hero-arrow right" id="hero-next" aria-label="Next slide">
+      <svg viewBox="0 0 24 24">
+        <path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+    </button>
+
+    <!-- Progress dots + timer bars -->
+    <div class="hero-progress" id="hero-progress">
+      <div class="hero-prog-item active" data-idx="0"><span class="prog-line"><i id="p0"></i></span></div>
+      <div class="hero-prog-item" data-idx="1"><span class="prog-line"><i id="p1"></i></span></div>
+      <div class="hero-prog-item" data-idx="2"><span class="prog-line"><i id="p2"></i></span></div>
+    </div>
+
+    <!-- Scroll cue -->
+    <div class="hero-scroll-cue"><span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+     BRAND RIBBON (Key Stats Strip)
+════════════════════════════════════════ -->
+  <div class="brand-strip">
+    <div class="brand-strip-inner">
+      <div class="bstrip-item">
+        <strong class="bstrip-num" data-target="15652">0</strong><span class="bstrip-plus">+</span>
+        <span class="bstrip-label">Students Enrolled</span>
+      </div>
+      <div class="bstrip-divider"></div>
+      <div class="bstrip-item">
+        <strong class="bstrip-num" data-target="25">0</strong><span class="bstrip-plus"></span>
+        <span class="bstrip-label">Years of Excellence</span>
+      </div>
+      <div class="bstrip-divider"></div>
+      <div class="bstrip-item">
+        <strong class="bstrip-num" data-target="97">0</strong><span class="bstrip-plus">%</span>
+        <span class="bstrip-label">University Progression</span>
+      </div>
+      <div class="bstrip-divider"></div>
+      <div class="bstrip-item">
+        <strong class="bstrip-num" data-target="15">0</strong><span class="bstrip-plus"></span>
+        <span class="bstrip-label">Nationalities</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+     ABOUT / PILLARS
+════════════════════════════════════════ -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="two-col-layout reverse-lap">
+        <div class="col-text reveal-left">
+          <div class="eyebrow-label green-label">About Mustard Seed</div>
+          <h2 class="section-title">An Education That<br /><em>Changes Everything</em></h2>
+          <p class="body-text">Mustard Seed International Schools are private yet affordable schools offering a
+            stimulating Cambridge curriculum and a deeply supportive environment — so every student experiences success
+            every single day.</p>
+          <p class="body-text">Situated in Kiamunyi, Nakuru, on the scenic Nakuru-Eldoret corridor, our campus is home
+            to a mosaic of cultures, ideas, and ambitions. We believe education is a path, not a destination.</p>
+          <a href="#schools" class="btn-primary" id="about-cta">Discover Our Programmes</a>
+        </div>
+        <div class="col-visual reveal-right">
+          <div class="img-stack">
+            <img src="Dining Hall.jpg" alt="School campus aerial" class="img-stack-main" loading="lazy" />
+            <div class="img-stack-badge">
+              <span class="badge-icon">🌍</span>
+              <span class="badge-text">Cambridge<br />Accredited</span>
+            </div>
+            <div class="img-stack-accent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+     CORE VALUES PILLARS
+════════════════════════════════════════ -->
+  <section class="section pillar-section" id="pillar-section">
+    <div class="pillar-bg"></div>
+    <div class="container">
+      <div class="section-header center reveal-up">
+        <div class="eyebrow-label light-label">Our Philosophy</div>
+        <h2 class="section-title white-text">What Drives Us</h2>
+      </div>
+      <div class="pillars-grid">
+        <div class="pillar-card reveal-up" style="--delay:0s">
+          <div class="pillar-num">01</div>
+          <div class="pillar-icon-wrap">💡</div>
+          <h3 class="pillar-heading">Enlighten</h3>
+          <p class="pillar-body">We cultivate informed curiosity and a deep, lasting passion for learning that extends
+            far beyond the classroom walls.</p>
+          <div class="pillar-line"></div>
+        </div>
+        <div class="pillar-card bright reveal-up" style="--delay:0.12s">
+          <div class="pillar-num">02</div>
+          <div class="pillar-icon-wrap">🌟</div>
+          <h3 class="pillar-heading">Inspire</h3>
+          <p class="pillar-body">We give special attention to intellectual development — because we believe ideas have
+            the power to transform lives.</p>
+          <div class="pillar-line"></div>
+        </div>
+        <div class="pillar-card reveal-up" style="--delay:0.24s">
+          <div class="pillar-num">03</div>
+          <div class="pillar-icon-wrap">🚀</div>
+          <h3 class="pillar-heading">Empower</h3>
+          <p class="pillar-body">Our internationally recognised curriculum opens doors to the world's best universities
+            and careers, giving students limitless options.</p>
+          <div class="pillar-line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+     WHAT WE OFFER — FEATURE CARDS
+════════════════════════════════════════ -->
+  <section class="section offer-section" id="offer">
+    <div class="container">
+      <div class="section-header center reveal-up">
+        <div class="eyebrow-label green-label">Our Commitment</div>
+        <h2 class="section-title">What Sets Us Apart</h2>
+      </div>
+      <div class="offer-grid">
+        <div class="offer-card reveal-up" style="--delay:0s">
+          <div class="offer-icon-ring" style="--ring:#00ba92">
+            <span>🌍</span>
+          </div>
+          <h3>Global Education</h3>
+          <p>We believe education should have a global reach — preparing every student to thrive in an interconnected
+            world.</p>
+          <div class="offer-hover-bar"></div>
+        </div>
+        <div class="offer-card reveal-up" style="--delay:0.1s">
+          <div class="offer-icon-ring" style="--ring:#ffd135">
+            <span>🏛️</span>
+          </div>
+          <h3>World-Class Facilities</h3>
+          <p>From science labs to music rooms and sports fields, every space is designed to unlock learners' full
+            potential.</p>
+          <div class="offer-hover-bar"></div>
+        </div>
+        <div class="offer-card reveal-up" style="--delay:0.2s">
+          <div class="offer-icon-ring" style="--ring:#f02000">
+            <span>⏰</span>
+          </div>
+          <h3>Flexible Scheduling</h3>
+          <p>With flexible timing and boarding options, a thirst for knowledge is never hampered by life's demands.</p>
+          <div class="offer-hover-bar"></div>
+        </div>
+        <div class="offer-card reveal-up" style="--delay:0.3s">
+          <div class="offer-icon-ring" style="--ring:#00ba92">
+            <span>🎓</span>
+          </div>
+          <h3>Cambridge Curriculum</h3>
+          <p>Built on the gold standard of Cambridge International Education, our programmes are recognised worldwide.
+          </p>
+          <div class="offer-hover-bar"></div>
+        </div>
+        <div class="offer-card reveal-up" style="--delay:0.4s">
+          <div class="offer-icon-ring" style="--ring:#ffd135">
+            <span>🤝</span>
+          </div>
+          <h3>Pastoral Care</h3>
+          <p>Every student is known by name. Our dedicated pastoral team ensures emotional wellbeing is never
+            overlooked.</p>
+          <div class="offer-hover-bar"></div>
+        </div>
+        <div class="offer-card reveal-up" style="--delay:0.5s">
+          <div class="offer-icon-ring" style="--ring:#f02000">
+            <span>🌱</span>
+          </div>
+          <h3>Character Building</h3>
+          <p>Through Nature Day, community service, and co-curriculars, we grow the whole child — mind, body, and
+            spirit.</p>
+          <div class="offer-hover-bar"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+     PARALLAX QUOTE BREAK
+════════════════════════════════════════ -->
+  <div class="parallax-break" id="quote-break" style="background-image:url('gallery-sep2023-02.jpg')">
+    <div class="parallax-scrim"></div>
+    <div class="parallax-content reveal-up">
+      <blockquote class="big-quote">
+        "Education is a path,<br />not a destination"
+      </blockquote>
+      <p class="quote-attr">— Mustard Seed International Schools</p>
+      <a href="#admissions" class="btn-outline-white" id="parallax-apply">Begin Your Journey →</a>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+     OUR SCHOOLS — TABS
+════════════════════════════════════════ -->
+  <section class="section schools-section" id="schools">
+    <div class="container">
+      <div class="section-header center reveal-up">
+        <div class="eyebrow-label green-label">Academic Programmes</div>
+        <h2 class="section-title">Our Schools</h2>
+        <p class="section-desc">From our nurturing Early Years through to Senior School, every stage is designed for
+          success.</p>
+      </div>
+
+      <div class="school-tabs" id="school-tabs">
+        <button class="school-tab active" data-tab="early" id="tab-early">🌱 Early Years</button>
+        <button class="school-tab" data-tab="junior" id="tab-junior">📚 Junior School</button>
+        <button class="school-tab" data-tab="senior" id="tab-senior">🎓 Senior School</button>
+        <button class="school-tab" data-tab="boarding" id="tab-boarding">🏠 Boarding</button>
+      </div>
+
+      <div class="school-panels">
+        <div class="school-panel active" id="panel-early">
+          <div class="school-panel-layout">
+            <div class="school-panel-img">
+              <img src="EY1.jpg" alt="Early Years" loading="lazy" />
+              <div class="panel-img-badge green-badge-pill">Ages 2–6</div>
+            </div>
+            <div class="school-panel-text">
+              <h3>Early Years Foundation</h3>
+              <p>Our Early Years programme creates a warm, play-based environment that sparks curiosity from the very
+                first day. Based on the EYFS framework, children explore language, numeracy, and creative arts through
+                structured play and guided discovery.</p>
+              <ul class="check-list">
+                <li>Play-based and inquiry-led learning</li>
+                <li>Low student-to-teacher ratios</li>
+                <li>Outdoor discovery garden</li>
+                <li>Music, art, and movement daily</li>
+                <li>Parent partnership programmes</li>
+              </ul>
+              <a href="#admissions" class="btn-primary" id="cta-early">Apply for Early Years</a>
+            </div>
+          </div>
+        </div>
+        <div class="school-panel" id="panel-junior">
+          <div class="school-panel-layout">
+            <div class="school-panel-img">
+              <img src="JS2.jpg" alt="Junior School" loading="lazy" />
+              <div class="panel-img-badge yellow-badge-pill">Ages 6–12</div>
+            </div>
+            <div class="school-panel-text">
+              <h3>Junior School</h3>
+              <p>Building on early foundations, Junior School develops critical thinkers and confident communicators
+                through the Cambridge Primary programme. Students are encouraged to ask questions, collaborate, and lead
+                — skills that last a lifetime.</p>
+              <ul class="check-list">
+                <li>Cambridge Primary (Maths, English, Science)</li>
+                <li>ICT integration across all subjects</li>
+                <li>Drama, music, and art clubs</li>
+                <li>School library &amp; reading programme</li>
+                <li>Inter-school sports competitions</li>
+              </ul>
+              <a href="#admissions" class="btn-primary" id="cta-junior">Apply for Junior School</a>
+            </div>
+          </div>
+        </div>
+        <div class="school-panel" id="panel-senior">
+          <div class="school-panel-layout">
+            <div class="school-panel-img">
+              <img src="School View Senior Section.jpg" alt="Senior School" loading="lazy" />
+              <div class="panel-img-badge red-badge-pill">Ages 12–18</div>
+            </div>
+            <div class="school-panel-text">
+              <h3>Senior School</h3>
+              <p>Senior School unlocks the world's best universities. Students pursue Cambridge IGCSE and A-Level
+                qualifications with expert guidance, university counselling, and leadership opportunities that build the
+                whole person.</p>
+              <ul class="check-list">
+                <li>Cambridge IGCSE &amp; A Levels</li>
+                <li>Dedicated university counsellor</li>
+                <li>Science labs, computer centre &amp; library</li>
+                <li>Leadership, debate, and MUN clubs</li>
+                <li>97% university progression rate</li>
+              </ul>
+              <a href="#admissions" class="btn-primary" id="cta-senior">Apply for Senior School</a>
+            </div>
+          </div>
+        </div>
+        <div class="school-panel" id="panel-boarding">
+          <div class="school-panel-layout">
+            <div class="school-panel-img">
+              <img src="Boarders Termly Trip.jpg" alt="Flexible Boarding" loading="lazy" />
+              <div class="panel-img-badge green-badge-pill">Weekly &amp; Full Boarding</div>
+            </div>
+            <div class="school-panel-text">
+              <h3>Flexible Boarding</h3>
+              <p>Our boarding option provides a safe, nurturing home-from-home that complements academic life. Students
+                enjoy supervised study hours, recreational activities, and the 24/7 support of our dedicated pastoral
+                team.</p>
+              <ul class="check-list">
+                <li>Weekly and full boarding available</li>
+                <li>Supervised evening study halls</li>
+                <li>Recreational &amp; fitness facilities</li>
+                <li>Nutritious, balanced meals daily</li>
+                <li>24/7 pastoral care and security</li>
+              </ul>
+              <a href="#admissions" class="btn-primary" id="cta-boarding">Apply for Boarding</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+     ACTIVITIES / SCHOOL LIFE MARQUEE + CARDS
+════════════════════════════════════════ -->
+  <section class="section life-section" id="events">
+    <div class="container">
+      <div class="section-header center reveal-up">
+        <div class="eyebrow-label green-label">Beyond the Classroom</div>
+        <h2 class="section-title">School Life &amp; Activities</h2>
+        <p class="section-desc">Join us for an exciting array of events — talent shows, science fairs, nature days, and
+          more.</p>
+      </div>
+    </div>
+
+    <!-- Full-width horizontal scroll strip -->
+    <div class="life-strip-wrap">
+      <div class="life-strip" id="life-strip">
+        <div class="life-card" id="lc-music">
+          <div class="life-img"><img src="School Band.jpg" alt="Music Lessons" loading="lazy" /></div>
+          <div class="life-body">
+            <span class="life-cat green-cat">Music</span>
+            <h4>Music Lessons</h4>
+            <p>Discover the joy of music through engaging lessons for all ages — from early years through to senior
+              school.</p>
+          </div>
+        </div>
+        <div class="life-card" id="lc-science">
+          <div class="life-img"><img src="ICT Lab 1.jpg" alt="Computer Classes" loading="lazy" /></div>
+          <div class="life-body">
+            <span class="life-cat green-cat">Tech &amp; Science</span>
+            <h4>Computer Classes</h4>
+            <p>Future-ready skills through engaging, hands-on computer and coding lessons integrated across all levels.
+            </p>
+          </div>
+        </div>
+        <div class="life-card" id="lc-sports">
+          <div class="life-img"><img src="Sports Day 1.jpg" alt="School Events" loading="lazy" /></div>
+          <div class="life-body">
+            <span class="life-cat yellow-cat">Sports</span>
+            <h4>Sports &amp; Athletics</h4>
+            <p>Talent shows, inter-school leagues, and sports competitions that build teamwork and school spirit.</p>
+          </div>
+        </div>
+        <div class="life-card" id="lc-work">
+          <div class="life-img"><img src="Junior School Class.jpg" alt="School Work" loading="lazy" /></div>
+          <div class="life-body">
+            <span class="life-cat green-cat">Academic</span>
+            <h4>Engaging School Work</h4>
+            <p>Project-based learning, group discussions, and creative assignments that make every lesson memorable.</p>
+          </div>
+        </div>
+        <div class="life-card" id="lc-nature">
+          <div class="life-img"><img src="Tree Planting.jpg" alt="Nature Day" loading="lazy" /></div>
+          <div class="life-body">
+            <span class="life-cat green-cat">Environment</span>
+            <h4>Nature Day</h4>
+            <p>We celebrate the world around us — planting trees, cleaning up reserves, and learning to be stewards of
+              creation.</p>
+          </div>
+        </div>
+        <div class="life-card" id="lc-certs">
+          <div class="life-img"><img src="Awards Trophies.jpg" alt="Certificates" loading="lazy" /></div>
+          <div class="life-body">
+            <span class="life-cat red-cat">Achievement</span>
+            <h4>Certificates &amp; Awards</h4>
+            <p>Formal certificates that open doors — recognising skills, dedication, and the hard work of every learner.
+            </p>
+          </div>
+        </div>
+        <div class="life-card" id="lc-bus">
+          <div class="life-img"><img src="School Transport 1.jpg" alt="School Bus" loading="lazy" /></div>
+          <div class="life-body">
+            <span class="life-cat yellow-cat">Transport</span>
+            <h4>School Bus Network</h4>
+            <p>Safe, reliable bus routes spanning Nakuru, ensuring students arrive and return home comfortably every
+              day.</p>
+          </div>
+        </div>
+        <div class="life-card" id="lc-teachers">
+          <div class="life-img"><img src="Teacher Student Relationship.jpg" alt="Teachers" loading="lazy" /></div>
+          <div class="life-body">
+            <span class="life-cat green-cat">Faculty</span>
+            <h4>Expert Teachers</h4>
+            <p>Close to 100 expert faculty members dedicated to shaping futures and inspiring every child in their care.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="strip-btn strip-prev" id="strip-prev" aria-label="Previous">
+        <svg viewBox="0 0 24 24">
+          <path d="M15 19l-7-7 7-7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </button>
+      <button class="strip-btn strip-next" id="strip-next" aria-label="Next">
+        <svg viewBox="0 0 24 24">
+          <path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+     VIDEO SECTION
+════════════════════════════════════════ -->
+  <section class="section video-section" id="video-section" style="background-image:url('tbd.jpg')">
+    <div class="video-scrim"></div>
+    <div class="container video-inner">
+      <div class="video-text reveal-left">
+        <div class="eyebrow-label light-label">See It For Yourself</div>
+        <h2 class="section-title white-text">Experience the<br />Mustard Seed Spirit</h2>
+        <p class="body-text white-text">Watch our school film and feel the energy, warmth, and ambition that defines our
+          community every day.</p>
+        <a href="#contact" class="btn-outline-white" id="video-enquire">Enquire Now →</a>
+      </div>
+      <div class="video-frame-wrap reveal-right">
+        <div class="video-embed-box" id="video-embed-box">
+          <video id="school-video" class="video-player" controls preload="none" poster="videoframe_190406.png"
+            style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit: cover;">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+     ADMISSIONS — PROCESS
+════════════════════════════════════════ -->
+  <section class="section admissions-section" id="admissions">
+    <div class="container">
+      <div class="section-header center reveal-up">
+        <div class="eyebrow-label green-label">Join Our Family</div>
+        <h2 class="section-title">Admissions</h2>
+        <p class="section-desc">Private yet affordable — we make world-class education accessible to every motivated
+          learner.</p>
+      </div>
+      <div class="process-track">
+        <div class="process-step reveal-up" style="--delay:0s" id="proc-1">
+          <div class="proc-circle"><span>1</span></div>
+          <div class="proc-connector"></div>
+          <div class="proc-card">
+            <h4>Apply Online</h4>
+            <p>Complete our simple application form. Takes less than 10 minutes, no fee required at this stage.</p>
+          </div>
+        </div>
+        <div class="process-step reveal-up" style="--delay:0.12s" id="proc-2">
+          <div class="proc-circle"><span>2</span></div>
+          <div class="proc-connector"></div>
+          <div class="proc-card">
+            <h4>Assessment Day</h4>
+            <p>Students attend a friendly, low-pressure assessment session to help us understand their strengths.</p>
+          </div>
+        </div>
+        <div class="process-step reveal-up" style="--delay:0.24s" id="proc-3">
+          <div class="proc-circle"><span>3</span></div>
+          <div class="proc-connector"></div>
+          <div class="proc-card">
+            <h4>Family Interview</h4>
+            <p>Meet our admissions team for a relaxed conversation about your family's goals and expectations.</p>
+          </div>
+        </div>
+        <div class="process-step reveal-up" style="--delay:0.36s" id="proc-4">
+          <div class="proc-circle"><span>4</span></div>
+          <div class="proc-connector last-connector"></div>
+          <div class="proc-card">
+            <h4>Welcome!</h4>
+            <p>Receive your offer, complete enrolment, and join the Mustard Seed family. We can't wait to meet you.</p>
+          </div>
+        </div>
+      </div>
+      <div class="admissions-actions reveal-up">
+        <a href="#contact" class="btn-primary" id="btn-apply-now">Apply Now</a>
+        <a href="#contact" class="btn-outline-green" id="btn-faq">Have Questions?</a>
+        <a href="#contact" class="btn-outline-green" id="btn-jobs">Job Board</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+     NEWS
+════════════════════════════════════════ -->
+  <section class="section news-section" id="news">
+    <div class="container">
+      <div class="news-header-row reveal-up">
+        <div>
+          <div class="eyebrow-label green-label">Latest Updates</div>
+          <h2 class="section-title">News &amp; Stories</h2>
+        </div>
+        <a href="#news" class="btn-outline-green" id="news-view-all">View All News</a>
+      </div>
+      <div class="news-grid">
+        <article class="news-card news-card-featured reveal-up" id="news-feat" style="--delay:0s">
+          <div class="nc-img-wrap">
+            <img src="IGCSE Graduation Class.jpg" alt="IGCSE Graduation" loading="lazy" />
+            <div class="nc-date-pip green-pip">Feb 2026</div>
+          </div>
+          <div class="nc-body">
+            <span class="nc-cat green-cat-label">Academic</span>
+            <h3>Term 2 Results: A Record-Breaking Year for Senior School</h3>
+            <p>Over 95% of students achieved or surpassed their target grades this term — a testament to the
+              extraordinary efforts of our teachers and students alike.</p>
+            <a href="news/term-2-results.html" class="nc-link" id="news-link-1">Read story →</a>
+          </div>
+        </article>
+        <div class="news-side-stack">
+          <article class="news-card reveal-up" id="news-2" style="--delay:0.1s">
+            <div class="nc-img-wrap sm-img">
+              <img src="Sports Day 1.jpg" alt="Sports Day" loading="lazy" />
+              <div class="nc-date-pip yellow-pip">Jan 2026</div>
+            </div>
+            <div class="nc-body">
+              <span class="nc-cat yellow-cat-label">Sports</span>
+              <h3>Annual Sports Day Draws Largest Crowd Yet</h3>
+              <p>Students, parents, staff and alumni filled the grounds for an unforgettable day of athletics and
+                community spirit.</p>
+              <a href="news/sports-day.html" class="nc-link" id="news-link-2">Read story →</a>
+            </div>
+          </article>
+          <article class="news-card reveal-up" id="news-3" style="--delay:0.2s">
+            <div class="nc-img-wrap sm-img">
+              <img src="Science Lab 2.jpg" alt="Science" loading="lazy" />
+              <div class="nc-date-pip red-pip">Dec 2025</div>
+            </div>
+            <div class="nc-body">
+              <span class="nc-cat red-cat-label">Science</span>
+              <h3>Science Fair Showcases Next-Generation Thinkers</h3>
+              <p>50+ student-led projects tackled real-world challenges in health, agriculture and technology.</p>
+              <a href="news/science-fair.html" class="nc-link" id="news-link-3">Read story →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+     GALLERY — MASONRY
+════════════════════════════════════════ -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header center reveal-up">
+        <div class="eyebrow-label green-label">Campus Life</div>
+        <h2 class="section-title">Gallery</h2>
+      </div>
+      <div class="masonry-grid" id="masonry-grid">
+        <div class="m-item reveal-up" id="g1" style="--delay:0s">
+          <img src="Drone shot.jpg" alt="Campus" loading="lazy" />
+          <div class="m-overlay"><span>Our Campus</span></div>
+        </div>
+        <div class="m-item reveal-up" id="g2" style="--delay:0.08s">
+          <img src="Junior School Class 2.jpg" alt="Students" loading="lazy" />
+          <div class="m-overlay"><span>Student Life</span></div>
+        </div>
+        <div class="m-item reveal-up" id="g3" style="--delay:0.16s">
+          <img src="Lib1.jpg" alt="Library" loading="lazy" />
+          <div class="m-overlay"><span>Library</span></div>
+        </div>
+        <div class="m-item reveal-up" id="g4" style="--delay:0.24s">
+          <img src="SL2.jpg" alt="Science Lab" loading="lazy" />
+          <div class="m-overlay"><span>Science Lab</span></div>
+        </div>
+        <div class="m-item reveal-up" id="g5" style="--delay:0.32s">
+          <img src="Football 1.jpg" alt="Sports" loading="lazy" />
+          <div class="m-overlay"><span>Sports &amp; Athletics</span></div>
+        </div>
+        <div class="m-item reveal-up" id="g6" style="--delay:0.4s">
+          <img src="School Band.jpg" alt="Music" loading="lazy" />
+          <div class="m-overlay"><span>Music &amp; Arts</span></div>
+        </div>
+        <div class="m-item reveal-up" id="g7" style="--delay:0.48s">
+          <img src="IGCSE Graduation Class.jpg" alt="Graduation" loading="lazy" />
+          <div class="m-overlay"><span>Graduation</span></div>
+        </div>
+        <div class="m-item reveal-up" id="g8" style="--delay:0.56s">
+          <img src="EY1.jpg" alt="Early Years" loading="lazy" />
+          <div class="m-overlay"><span>Early Years</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════
+     CALENDAR + EVENTS
+════════════════════════════════════════ -->
+  <section class="section calendar-section" id="calendar">
+    <div class="container">
+      <div class="section-header center reveal-up">
+        <div class="eyebrow-label green-label">What's On</div>
+        <h2 class="section-title">Featured Events &amp; Calendar</h2>
+      </div>
+      <div class="cal-layout">
+        <!-- Upcoming Events List -->
+        <div class="cal-upcoming reveal-left" id="cal-upcoming">
+          <h3 class="cal-sub-h">Upcoming Events</h3>
+          <div id="ev-list" class="ev-list"></div>
+        </div>
+        <!-- Calendar Widget -->
+        <div class="cal-widget reveal-right" id="cal-widget">
+          <div class="cal-hdr">
+            <button class="cal-nav" id="cal-prev">‹</button>
+            <span class="cal-title" id="cal-title">March 2026</span>
+            <button class="cal-nav" id="cal-next">›</button>
+          </div>
+          <div class="cal-tabs" id="cal-tabs">
+            <button class="cal-tab-btn active" data-view="month">Month</button>
+            <button class="cal-tab-btn" data-view="week">Week</button>
+            <button class="cal-tab-btn" data-view="day">Day</button>
+          </div>
+          <div class="cal-body" id="cal-body">
+            <!-- Filled by JS -->
+          </div>
+          <div class="cal-legend-row">
+            <span class="legend-pip green-pip2"></span> Academic
+            <span class="legend-pip yellow-pip2"></span> Sports
+            <span class="legend-pip red-pip2"></span> Arts
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+     CONTACT
+════════════════════════════════════════ -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="contact-col reveal-left">
+          <div class="eyebrow-label green-label">Get In Touch</div>
+          <h2 class="section-title">We'd Love to<br />Hear From You</h2>
+          <p class="body-text">Whether you have a question about admissions, programmes, transport, or anything else —
+            our team is here to help.</p>
+          <div class="contact-details">
+            <div class="cdet-row">
+              <div class="cdet-icon" style="--ico-bg:#e6f9f5">📍</div>
+              <div>
+                <strong>Address</strong>
+                <p>Kiamunyi, Off Nakuru-Eldoret Road, Nakuru</p>
+              </div>
+            </div>
+            <div class="cdet-row">
+              <div class="cdet-icon" style="--ico-bg:#fffbea">📞</div>
+              <div>
+                <strong>Phone</strong>
+                <p><a href="tel:+254721300121">+254 721 300 121</a></p>
+              </div>
+            </div>
+            <div class="cdet-row">
+              <div class="cdet-icon" style="--ico-bg:#fff0ee">✉</div>
+              <div>
+                <strong>Email</strong>
+                <p><a href="mailto:info@mustardseedschools.co.ke">info@mustardseedschools.co.ke</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="social-links" id="social-links">
+            <a href="#" class="soc-btn" id="soc-fb" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+              </svg></a>
+            <a href="#" class="soc-btn" id="soc-tw" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+              </svg></a>
+            <a href="#" class="soc-btn" id="soc-ig" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg></a>
+            <a href="#" class="soc-btn" id="soc-yt" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z" />
+                <polygon fill="#fff" points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" />
+              </svg></a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal-right">
+          <form class="contact-form" id="contact-form" novalidate>
+            <h3 class="form-title">Send Us a Message</h3>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="cf-name">Full Name *</label>
+                <input type="text" id="cf-name" name="name" placeholder="Jane Doe" required />
+              </div>
+              <div class="form-field">
+                <label for="cf-email">Email Address *</label>
+                <input type="email" id="cf-email" name="email" placeholder="jane@example.com" required />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="cf-phone">Phone Number</label>
+              <input type="tel" id="cf-phone" name="phone" placeholder="+254 700 000 000" />
+            </div>
+            <div class="form-field">
+              <label for="cf-interest">I'm Interested In</label>
+              <select id="cf-interest" name="interest">
+                <option value="">Select an option…</option>
+                <option>Early Years Admission</option>
+                <option>Junior School Admission</option>
+                <option>Senior School Admission</option>
+                <option>Boarding Information</option>
+                <option>Job Vacancy</option>
+                <option>General Enquiry</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="cf-msg">Your Message *</label>
+              <textarea id="cf-msg" name="message" rows="5" placeholder="Tell us how we can help…" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-btn" id="cf-submit">Send Message</button>
+            <div class="form-feedback" id="form-feedback" style="display:none"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+     FOOTER
+════════════════════════════════════════ -->
+  <footer class="site-footer" id="footer">
+    <div class="footer-top-wave">
+      <svg viewBox="0 0 1440 90" preserveAspectRatio="none">
+        <path fill="#0d1a15" d="M0,60 C480,0 960,100 1440,40 L1440,90 L0,90 Z" />
+      </svg>
+    </div>
+    <div class="footer-body">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <img src="logo.png" alt="Mustard Seed International Schools" class="footer-logo" />
+          <p>Mustard Seed International Schools — private yet affordable, stimulating curriculum, supportive
+            environment. Nakuru, Kenya.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook" class="soc-btn sm"><svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+              </svg></a>
+            <a href="#" aria-label="Twitter" class="soc-btn sm"><svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+              </svg></a>
+            <a href="#" aria-label="Instagram" class="soc-btn sm"><svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Our Schools</h4>
+          <ul>
+            <li><a href="schools/early-years.html">Early Years</a></li>
+            <li><a href="schools/junior-school.html">Junior School</a></li>
+            <li><a href="schools/senior-school.html">Senior School</a></li>
+            <li><a href="schools/boarding.html">Flexible Boarding</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#admissions">FAQ Information</a></li>
+            <li><a href="#admissions">Student Application</a></li>
+            <li><a href="#admissions">Job Board</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-contact-col">
+          <h4>Contact Us</h4>
+          <p>Mustard Seed International School<br />Kiamunyi, Off Nakuru-Eldoret Road<br />Nakuru, Kenya</p>
+          <p><a href="tel:+254721300121">+254 721 300 121</a></p>
+          <p><a href="mailto:info@mustardseedschools.co.ke">info@mustardseedschools.co.ke</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-container">
+        <p>© 2026 Mustard Seed International Schools. All rights reserved.</p>
+        <p>Nakuru, Kenya · Cambridge Affiliated</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lb-backdrop" id="lb-backdrop"></div>
+    <img class="lb-img" id="lb-img" alt="" />
+    <button class="lb-close" id="lb-close" aria-label="Close">✕</button>
+    <button class="lb-nav lb-left" id="lb-left" aria-label="Previous">‹</button>
+    <button class="lb-nav lb-right" id="lb-right" aria-label="Next">›</button>
+  </div>
+
+  <!-- Scroll to top -->
+  <button class="to-top" id="to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24">
+      <path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </svg>
+  </button>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

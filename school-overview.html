@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>School Overview — Mustard Seed International Schools</title>
+    <link rel="icon" href="logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <style>
+        .article-hero {
+            background: var(--dark) url('IGCSE Class.jpg') center/cover no-repeat;
+            padding: 140px 0 100px;
+            position: relative;
+            color: white;
+            text-align: center;
+        }
+
+        .article-hero::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+
+        .article-header {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .article-content {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 28px;
+            line-height: 1.8;
+            font-size: 1.15rem;
+            color: var(--mid);
+        }
+
+        .article-content h2 {
+            color: var(--text);
+            margin: 50px 0 20px;
+            font-size: 2.2rem;
+            letter-spacing: -0.02em;
+        }
+
+        .img-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .img-grid img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .full-img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin: 40px 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: var(--green);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HEADER QUICK COPY -->
+    <header class="site-header scrolled">
+        <div class="header-container">
+            <a href="index.html" class="header-logo-link">
+                <img src="logo.png" alt="Mustard Seed" class="header-logo" />
+            </a>
+            <div class="header-actions">
+                <a href="index.html" class="hdr-btn hdr-outline">Back to Home</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="article-hero">
+        <div class="container article-header">
+            <div class="eyebrow-label" style="background:var(--red);color:white;border:none">Academic Programmes</div>
+            <h1 class="hero-headline" style="font-size:3.5rem;margin-top:20px;margin-bottom:20px">School Overview</h1>
+            <p style="font-family:var(--serif);font-size:1.4rem;opacity:0.9">A continuous journey of excellence from
+                Early Years to A-Level.</p>
+        </div>
+    </section>
+
+    <main class="article-content">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        <p style="font-size: 1.3rem; margin-bottom: 40px;">
+            Mustard Seed International Schools is designed to be a continuous, nurturing, and rigorous educational
+            journey. From the very first day in Early Years until graduation day in Senior School, our students benefit
+            from a cohesive and internationally recognized framework that prepares them for global success.
+        </p>
+
+        <h2>The Early Foundations</h2>
+        <p>It all begins in our vibrant Early Years department, where we emphasize hands-on, highly engaging play-based
+            learning. Whether it's imaginative play, early STEM activities, or getting involved in our Early Years
+            cooking classes, children build crucial fine motor skills, social intelligence, and a fundamental love for
+            discovery.</p>
+
+        <img src="Early Years Cooking.jpg" alt="Early Years Cooking Activity" class="full-img" loading="lazy" />
+
+        <h2>The Global Cambridge Curriculum</h2>
+        <p>As students progress into Junior and Senior School, they transition into the esteemed Cambridge curriculum.
+            We offer continuous progression through Cambridge Primary, into the Cambridge IGCSE, and culminating in
+            Cambridge International A-Levels. This rigorous academic framework ensures our learners acquire deep subject
+            knowledge and the conceptual understanding necessary for higher education.</p>
+
+        <div class="img-grid">
+            <img src="IGCSE Class.jpg" alt="IGCSE Students collaborating" loading="lazy" />
+            <img src="A level class.jpg" alt="A level students in class" loading="lazy" />
+        </div>
+
+        <p>Our results speak for themselves, with an outstanding university progression rate. But the academics only
+            tell half the story. Our dedicated teaching staff employ modern pedagogical strategies, combining
+            traditional academic rigor with collaborative, project-based learning.</p>
+
+        <h2>Holistic Extracurriculars</h2>
+        <p>We firmly believe that some of the most important lessons happen outside the traditional classroom. To
+            support cognitive flexibility, discipline, and artistic expression, we maintain a vibrant extracurricular
+            roster. Students can test their strategic thinking on the Chess board or develop their musical talents
+            playing the Violin and other instruments in the school orchestra.</p>
+
+        <div class="img-grid">
+            <img src="Chess.jpg" alt="Students playing chess" loading="lazy" />
+            <img src="Violin.jpg" alt="Student playing the violin" loading="lazy" />
+        </div>
+
+        <p>At Mustard Seed, we don't just educate; we build dynamic, well-rounded individuals ready to take their place
+            in an ever-changing world.</p>
+    </main>
+
+    <!-- FOOTER QUICK COPY -->
+    <footer class="site-footer" style="margin-top:60px; background: var(--dark); padding: 40px 0;">
+        <div class="footer-bottom">
+            <div class="footer-container" style="text-align:center; color: white;">
+                <p>© 2026 Mustard Seed International Schools. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
